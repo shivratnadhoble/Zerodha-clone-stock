@@ -9,7 +9,7 @@ function RightSection({ imageURL, productName, productDescription, learnMore }) 
                 <div className="col-6 p-4">
                     <h1>{productName}</h1>
                     <p className="mt-3">{productDescription}</p>
-                    <a href={learnMore} className="mt-2 d-inline-block">
+                    <a href={learnMore || "/"} className="mt-2 d-inline-block">
                         Learn More
                     </a>
                 </div>
