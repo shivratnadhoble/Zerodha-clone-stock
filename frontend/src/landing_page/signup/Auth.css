@@ -1,0 +1,121 @@
+/* authentication Styling */
+.auth_page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+  font-family: "Outfit", "Inter", sans-serif;
+}
+
+.form_container {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 420px;
+  transition: transform 0.3s ease;
+}
+
+.form_container:hover {
+  transform: translateY(-5px);
+}
+
+.form_container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.form_container p.subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.auth_form .input_group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.auth_form label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.auth_form input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.2s ease;
+  background-color: #fcfcfc;
+}
+
+.auth_form input:focus {
+  border-color: #387ed1;
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(56, 126, 209, 0.1);
+}
+
+.auth_form button.btn_submit {
+  width: 100%;
+  padding: 14px;
+  background: #387ed1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 4px 15px rgba(56, 126, 209, 0.3);
+}
+
+.auth_form button.btn_submit:hover {
+  background: #2b65a8;
+  box-shadow: 0 6px 20px rgba(56, 126, 209, 0.4);
+}
+
+.auth_form button.btn_submit:active {
+  transform: scale(0.98);
+}
+
+.auth_footer {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.auth_footer a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.auth_footer a:hover {
+  text-decoration: underline;
+}
+
+.logo_header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.logo_header img {
+  width: 120px;
+}

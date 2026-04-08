@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+  color: #444;
+}
+
+.btn-primary {
+  background-color: #387ed1 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  padding: 12px 24px !important;
+}
+
+.btn-primary:hover {
+  background-color: #2b65a8 !important;
+  box-shadow: 0 4px 12px rgba(56, 126, 209, 0.4) !important;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #1a1a2e;
+}
