@@ -6,7 +6,7 @@ function Footer() {
             <div className='container border-top mt-5'>
                 <div className='row mt-5'>
                     <div className='col'>
-                        <img src='media/images/logo.svg' style={{ width: "50%" }} />
+                        <img src='media/images/logo.svg' style={{ width: "50%" }} alt="Zerodha Logo" />
                         <p>
                             &copy; 2010 - 2026, Not Zerodha Broking Ltd. All rights Reserved. </p>
                         <div className='d-flex gap-3'>
@@ -19,30 +19,30 @@ function Footer() {
                     </div>
                     <div className='col'>
                         <p className='text-muted' style={{ fontSize: "20px" }}>Company</p>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>About</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Products</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Pricing</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Referral programme</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Careers</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Zerodha.tech</a>
-                        <a href="" className='d-block text-muted text-decoration-none'>Press & media</a>
-                        <a href="" className='d-block text-muted text-decoration-none'>Zerodha cares (CSR)</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>About</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Products</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Pricing</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Referral programme</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Careers</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Zerodha.tech</a>
+                        <a href="/" className='d-block text-muted text-decoration-none'>Press & media</a>
+                        <a href="/" className='d-block text-muted text-decoration-none'>Zerodha cares (CSR)</a>
                     </div>
 
                     <div className='col mb-5'>
                         <p className='text-muted' style={{ fontSize: "20px" }} >Support</p>
-                        <a href="" className='d-block text-muted text-decoration-none mb-3'>Contact</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-3'>Support portal</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-3'>Z-Connect Blog</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-3'>List of Charges</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-3'>Downloads & resources</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-3'>Contact</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-3'>Support portal</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-3'>Z-Connect Blog</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-3'>List of Charges</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-3'>Downloads & resources</a>
                     </div>
 
                     <div className='col mb-5'>
                         <p className='text-muted' style={{ fontSize: "20px" }}>Account</p>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Open An Account</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>Fund Transfer</a>
-                        <a href="" className='d-block text-muted text-decoration-none mb-2'>60 Day Challenge</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Open An Account</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>Fund Transfer</a>
+                        <a href="/" className='d-block text-muted text-decoration-none mb-2'>60 Day Challenge</a>
                     </div>
 
                 </div>
@@ -89,13 +89,13 @@ function Footer() {
                         create a ticket here.
                     </p>
                     <div className='mt-4 d-flex justify-content-center flex-wrap gap-4'>
-                        <a href="" className='text-muted text-decoration-none'>NSE</a>
-                        <a href="" className='text-muted text-decoration-none'>BSE</a>
-                        <a href="" className='text-muted text-decoration-none'>MCX</a>
-                        <a href="" className='text-muted text-decoration-none'>Terms & Conditions</a>
-                        <a href="" className='text-muted text-decoration-none'>Policies & Procedures</a>
-                        <a href="" className='text-muted text-decoration-none'>Privacy Policy</a>
-                        <a href="" className='text-muted text-decoration-none'>Disclosure</a>
+                        <a href="/" className='text-muted text-decoration-none'>NSE</a>
+                        <a href="/" className='text-muted text-decoration-none'>BSE</a>
+                        <a href="/" className='text-muted text-decoration-none'>MCX</a>
+                        <a href="/" className='text-muted text-decoration-none'>Terms & Conditions</a>
+                        <a href="/" className='text-muted text-decoration-none'>Policies & Procedures</a>
+                        <a href="/" className='text-muted text-decoration-none'>Privacy Policy</a>
+                        <a href="/" className='text-muted text-decoration-none'>Disclosure</a>
                     </div>
                 </div>
             </div>
