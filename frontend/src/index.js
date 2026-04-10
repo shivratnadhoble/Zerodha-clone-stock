@@ -1,6 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
