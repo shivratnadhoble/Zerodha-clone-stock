@@ -20,7 +20,7 @@ const BuyActionWindow = ({ uid }) => {
       alert("Please enter valid quantity and price");
       return;
     }
-    axios.post("http://localhost:3002/newOrder", {
+    axios.post(`${process.env.REACT_APP_BACKEND_URL || "http://localhost:3002"}/newOrder`, {
       name: uid,
       qty: Number(stockQuantity),
       price: Number(stockPrice),

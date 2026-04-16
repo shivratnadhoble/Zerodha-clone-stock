@@ -13,7 +13,7 @@ const Summary = () => {
 
     useEffect(() => {
         // Fetch real market holdings
-        axios.get("http://localhost:3002/allHoldings").then((res) => {
+        axios.get(`${process.env.REACT_APP_BACKEND_URL || "http://localhost:3002"}/allHoldings`).then((res) => {
             setAllHoldings(res.data);
         });
 

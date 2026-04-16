@@ -46,7 +46,7 @@ mongoose.connect(uri)
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://zerodha-clone-stock-2.onrender.com'],
   credentials: true
 }));
 app.use(express.json());

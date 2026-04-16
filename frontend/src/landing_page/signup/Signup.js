@@ -31,7 +31,7 @@ const Signup = () => {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "https://zerodha-clone-stock-2.onrender.com/signup",
+                `${process.env.REACT_APP_BACKEND_URL || "http://localhost:3002"}/signup`,
                 { ...inputValue },
                 { withCredentials: true }
             );

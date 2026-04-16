@@ -38,7 +38,7 @@ const Menu = () => {
 
     const handleLogout = () => {
         // Redirection to the Landing Page Login on Port 3000
-        window.location.href = "http://localhost:3000/login";
+        window.location.href = `${process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000"}/login`;
     };
 
     // Styling logic

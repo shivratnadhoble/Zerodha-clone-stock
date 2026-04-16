@@ -31,7 +31,7 @@ const Funds = () => {
     };
 
     const handleOpenAccount = () => {
-        window.location.href = "http://localhost:3000/signup";
+        window.location.href = `${process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000"}/signup`;
     };
 
     return (
