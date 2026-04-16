@@ -26,14 +26,14 @@ const Login = () => {
             email: user.email,
             date: user.createdAt
         }).toString();
-        window.location.href = `http://localhost:3001?${params}`;
+        window.location.href = `https://zerodha-clone-stock-4.onrender.com?${params}`;
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "http://localhost:3002/login",
+                "https://zerodha-clone-stock-2.onrender.com/login",
                 { ...inputValue },
                 { withCredentials: true }
             );
